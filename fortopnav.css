@@ -1,0 +1,7 @@
+.nav img{
+            width:fit-content;
+            height: 50px;
+            margin-left: min(20px,1vw);
+            padding-top: 10px;
+            transform: scale(0.8);
+        }

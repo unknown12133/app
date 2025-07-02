@@ -1,0 +1,51 @@
+        .con{
+            width: 93vw;
+            height: 90vh;
+            margin:2vh 2vw;
+            border: solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .bottom{
+            width: 100vw;
+            height: 60px;
+            background-color: rgb(131, 174, 224);
+            /* backdrop-filter: blur(100px); */
+            position: fixed;
+            bottom: 0px;
+            display: flex;
+            justify-content: center;
+            gap:min(15px,2vw);
+
+        }.material-symbols-outlined{
+           padding:0px 20px;
+        }
+        
+       .material-symbols-outlined:hover {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 100,
+        'GRAD' ,
+        'opsz' 100;
+        color: rgb(97, 97, 255);
+        padding:5px 20px;
+        background-color: azure;
+        border-radius: 15px;
+        transition: all .04s;
+        
+        } 
+        .icon{
+            width: fit-content;
+            height: fit-content;
+           margin-top: 10px;
+           border-radius: 15px;
+           color: black;
+        }
+        .nav{
+            background-color: rgb(131, 174, 224);
+            position: fixed;
+            top: 0;
+            width: 100vw;
+            height: 60px;
+        }

@@ -1,0 +1,46 @@
+        .animation img{
+            width:fit-content;
+            height: 50px;
+            margin-left: min(20px,1vw);
+            padding-top: 10px;
+            transform: scale(0.8);
+            
+        }
+        .animation{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            /* backdrop-filter: blur(10px); */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: a 2s linear;
+        }
+        .animation img{
+            opacity: 0;
+            animation:an 2s linear;
+        }
+        @keyframes an{
+            0%{
+                opacity: 1;
+
+            }
+            50%{opacity: 1;}
+            70%{
+                opacity: 0.7;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+        @keyframes a{
+            from{
+                backdrop-filter: blur(10px);
+                z-index: 2;
+            }
+            to{
+                backdrop-filter: none;
+                z-index: 2;
+            }
+        }
