@@ -1,3 +1,7 @@
+*{
+            padding: 0;
+            margin: 0;
+        }
 .nav img{
             width:fit-content;
             height: 50px;
@@ -5,3 +9,11 @@
             padding-top: 10px;
             transform: scale(0.8);
         }
+        .nav{
+            background-color: rgb(131, 174, 224);
+            position: fixed;
+            top: 0;
+            width: 100vw;
+            height: 60px;
+        }
+       

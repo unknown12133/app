@@ -1,3 +1,7 @@
+        *{
+            padding: 0;
+            margin: 0;
+        }
         .animation img{
             width:fit-content;
             height: 50px;

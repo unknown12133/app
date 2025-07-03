@@ -1,3 +1,7 @@
+        *{
+            margin: 0;
+            padding: 0;
+        }
         .con{
             width: 96vw;
             height: 90vh;
@@ -42,10 +46,4 @@
            border-radius: 15px;
            color: black;
         }
-        .nav{
-            background-color: rgb(131, 174, 224);
-            position: fixed;
-            top: 0;
-            width: 100vw;
-            height: 60px;
-        }
+        
